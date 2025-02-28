@@ -13,11 +13,11 @@
     align-items: center;
     margin: 0 auto;
     padding: 40px;
-    max-width: 1200px;
+    max-width: 1100px;
 
     border-radius: 10px;
-    box-shadow: 0px 0px 0px #9CBBD0; /*TODO*/
-    /* box-shadow: 0px 0px 20px #9CBBD0; */
+    /* box-shadow: 0px 0px 0px #9CBBD0; TODO */
+    box-shadow: 0px 0px 20px #9CBBD0;
     /*background-color: #F5FAFF;*/
     text-align: center;
 }
