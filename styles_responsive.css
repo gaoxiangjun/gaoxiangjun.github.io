@@ -5,7 +5,7 @@
     gap: 20px;
     align-items: center;
     margin: 0 auto;
-    max-width: 1080px;
+    max-width: 1080px;  
   }
 
 
@@ -13,16 +13,17 @@
     align-items: center;
     margin: 0 auto;
     padding: 40px;
-    max-width: 1020px;
+    max-width: 1200px;
 
-    border-radius: 20px;
-    box-shadow: 0px 0px 20px #9CBBD0;
+    border-radius: 10px;
+    box-shadow: 0px 0px 0px #9CBBD0; /*TODO*/
+    /* box-shadow: 0px 0px 20px #9CBBD0; */
     /*background-color: #F5FAFF;*/
     text-align: center;
 }
   
   .item {
-    padding: 10px; /* This one matters for formatting the paper items padding */
+    padding: 10px; /* TODO: This one matters for formatting the paper items padding */
   }
 
   /*.item.image {*/
@@ -60,12 +61,12 @@
 .container2 {
     font-family: 'Candara', serif;
     display: grid;
-    grid-template-columns: 20% 80%;
+    grid-template-columns: 18% 82%;
     gap: 0px;
     align-items: center;
     margin: 0 auto;
     margin-top: 0px;
-    max-width: 1080px;
+    max-width: 1180px;
   }
 
 .text2 {
@@ -74,12 +75,12 @@
   }
 
 .image2 img {
-    max-width: 100%;
+    max-width: 90%;
     width: 100%;
-    max-height: 115px;
+    max-height: 115x;
     max-width: auto;
     margin: 0px;
-    /* margin: 10px; */
+    /* margin: 10px; */ /*TODO*/
   }
 
 .item.image2 {
