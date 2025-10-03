@@ -74,10 +74,14 @@ a:hover {
   text-decoration: none;
 }
 
-body,
+body{
+  line-height: 1.6em;
+}
+
 td,
 th,
 tr,
+em,
 p,
 a {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
@@ -91,18 +95,63 @@ strong {
 
 heading {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 22px;
+  font-size: 24px;
 }
 
 papertitle {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 17px;
+  font-size: 18px;
   font-weight: 700
+}
+
+authorname {
+  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-size: 16px;
+  color: #00418A;
+}
+
+authorname:focus,
+authorname:hover {
+  color: #f09228;
+  text-decoration: none;
+}
+
+authorname-nolink {
+  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-size: 16px;
+  color: #00418A;
 }
 
 name {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
   font-size: 32px;
+}
+
+pre {
+  overflow-x: auto;
+  text-align: left;
+  border: 0.5px solid rgb(215, 215, 215);
+  border-radius: 6px;
+  background: rgba(239,239,239,0.6);
+  padding: 5px 5px 5px 10px;
+  line-height: 1.2;
+  white-space: pre-wrap;
+}
+
+button {
+  background: none;
+  border: none;
+  padding: 0;
+  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-size: 16px;
+  color:#1772d0;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+button:hover{
+  color: #f09228;
+  text-decoration: none;
 }
 
 .one {
@@ -124,6 +173,10 @@ name {
   transition: opacity .2s ease-in-out;
   -moz-transition: opacity .2s ease-in-out;
   -webkit-transition: opacity .2s ease-in-out;
+}
+
+.code-card{
+  background-color: rgba(239,239,239,0.66);
 }
 
 span.highlight {
