@@ -2,7 +2,7 @@ body {
     /* margin: 0 auto; */
     padding-top: 36px;
     background-color: #fff;
-    font-family: 'Candara', serif;
+    font-family: 'Lato', serif;
     color: #1a1a1a;
     font-size: 12pt;
     line-height: 1.8em;
@@ -53,7 +53,7 @@ a {
 
 .conference {
     font-size: 24px;
-    font-family: 'Candara', serif;
+    font-family: 'Lato', serif;
     margin-top: 20px;
     width: 95%;
 }
@@ -132,7 +132,7 @@ p {
 h1 {
     font-weight: 360;
     font-size: 28px;
-    font-family: 'Candara', serif;
+    font-family: 'Lato', serif;
     text-align: center;
 }
 
@@ -193,7 +193,7 @@ a:hover {
 
 .container-title {
     font-size: 24pt;
-    font-family: 'Candara', serif;
+    font-family: 'Lato', serif;
     color: #313436;
     padding-bottom: 0.3em;
     margin-bottom: 0.8em;
@@ -210,7 +210,7 @@ a:hover {
 
 h1.project-title {
     font-size: 24pt;
-    font-family: 'Candara', serif;
+    font-family: 'Lato', serif;
     font-weight: normal;
     line-height: 120%;
 }
