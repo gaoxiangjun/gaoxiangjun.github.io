@@ -89,6 +89,11 @@
     /* max-width: auto; */
     margin: 0px;
     /* margin: 10px; */ /*TODO*/
+
+    border: 2px solid #ddd;        /* 灰色细边框 */
+    border-radius: 12px;           /* 圆角 */
+    padding: 0px;                  /* 图片与边框之间留一点空隙 */
+    box-shadow: 0 2px 6px rgba(0,0,0,0.15); /* 可选：阴影 */
   }
 
 .item.image2 {
